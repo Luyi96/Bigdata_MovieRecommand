@@ -1,0 +1,75 @@
+body{
+  background-image:url(https://img.zcool.cn/community/01ae7f5543ec890000019ae90bc678.jpg@3000w_1l_0o_100sh.jpg);
+}
+#navigation{
+  background: #888888;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;  
+  margin-bottom:5px;    
+}
+#logreg{
+  float: right;
+  padding-top: 2%;
+  padding-right: 20px;
+  color: #FFF;
+  background-color: rgba(0,0,0,0)
+}
+#mid{
+  padding-top: 50px;
+  height: 75%;
+  width: 1500px;
+  margin: 0 auto;
+}
+#picchange{
+  text-align: center;
+  height: 75%;
+}
+#contain{
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  font-family: Arial;
+  color: #FFF;
+  overflow: hidden;
+}
+#contain ul{
+  margin: 10px 0;
+  padding: 0;
+  width: 1800px;
+  transition:all 0.5s;
+}
+#contain li{
+  float: left;
+  width: 600px;
+  height: 200px;
+  list-style: none;
+  line-height: 200px;
+  font-size: 36px;
+}
+#one{
+  background: #9fa8ef;
+}
+#two{
+  background: #ef9fb1;
+}
+
+#three{
+  background: #9fefc3;
+}
+@keyframes marginLeft{
+  0%{margin-left: 0;}
+  28.5%{margin-left: 0;}
+  33.3%{margin-left: -600px;}
+  62%{margin-left: -600px;}
+  66.7%{margin-left: -1200px;}
+  95.2%{margin-left: -1200px;}
+  100%{margin-left: 0;}
+}
+
+#slide-auto{
+  animation:marginLeft 10.5sinfinite;
+}

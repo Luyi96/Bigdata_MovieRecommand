@@ -1,0 +1,31 @@
+html
+  head
+    title!= title
+    style.
+      body{
+        background-image:url(https://img.zcool.cn/community/01ae7f5543ec890000019ae90bc678.jpg@3000w_1l_0o_100sh.jpg);
+      }
+      #reg{
+        padding-top: 2px;
+        margin-top: 10%;
+        margin-left: 37%;
+        background: white;
+        width: 25%;
+        height: 40%;
+        text-align: center;
+      }
+  body
+    div#reg
+      form(action='/register', method='post')
+        h1 用户注册
+        br
+        span 帐号:
+        input(type='text',name='username')
+        br
+        span 密码:
+        input(type='password',name='pwd')
+        br
+        br
+        input(type='submit',value='注册')
+        br
+        a(href='/loginpage',title='主页')返回登陆

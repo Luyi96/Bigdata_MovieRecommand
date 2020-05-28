@@ -1,0 +1,12 @@
+html
+  head
+    title!= title
+  body
+    h1 用户:#{username},通过分析您的偏好，为您推荐电影:
+    table( cellpadding="5" cellspacing="5")
+         tr
+           -for(var i=0;i<movieinfo.length;i++)
+            td
+              p #{movieinfo[i].moviename}
+            -if((i+1)%5==0)
+             tr

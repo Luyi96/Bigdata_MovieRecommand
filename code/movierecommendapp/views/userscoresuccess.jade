@@ -1,0 +1,6 @@
+html
+  head
+    title!= title
+  body
+    h1 用户:#{user.username},您的评分已成功提交!
+    a(href='/recommendmovieforuser?userid=#{user.userid}&username=#{user.username}') 点击获取系统推荐电影（点击后请稍等）

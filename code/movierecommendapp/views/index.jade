@@ -1,0 +1,18 @@
+html
+  head
+    title!=title    
+    meta(charset='utf-8')
+    meta(name='description')
+    meta(name='keywords')
+    meta(name='author')
+    style
+      include css/index.css
+    style(type='text/css').
+
+  body
+    div#navigation 电影推荐系统
+      div#logreg
+        input(type='submit',value='登录',onclick="window.location='/loginpage'")
+        input(type='submit', value='注册',onclick="window.location='/registerpage'") 
+    div#mid
+      
